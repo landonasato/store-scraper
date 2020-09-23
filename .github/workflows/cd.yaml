@@ -1,0 +1,16 @@
+name: cd
+on:
+  push:
+    branches:
+      - main
+jobs:
+  cd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: GoogleCloudPlatform/release-please-action@v2.4.1
+        id: release
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          release-type: node
+          package-name: nvidia-snatcher
