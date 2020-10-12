@@ -30,13 +30,6 @@ export const NewEgg: Store = {
 			url: 'https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3883-kr/p/N82E16814487521'
 		},
 		{
-			brand: 'evga',
-			cartUrl: 'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814487520',
-			model: 'xc3 ultra',
-			series: '3080',
-			url: 'https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3885-kr/p/N82E16814487520'
-		},
-		{
 			brand: 'msi',
 			cartUrl: 'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814137600',
 			model: 'ventus 3x',
